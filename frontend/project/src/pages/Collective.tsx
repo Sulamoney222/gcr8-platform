@@ -107,7 +107,7 @@ const CollectiveCard: React.FC<{ name: string; members: string; desc: string; ta
         <span key={tag} className="px-2 py-0.5 rounded-md bg-gray-50 dark:bg-white/5 text-[10px] font-bold text-gray-500">{tag}</span>
       ))}
     </div>
-    <Button variant="secondary" size="sm" className="w-full">Join Collective</Button>
+    <Button variant="secondary" size="sm" className="w-full bg-gcr8-purple-950 text-white dark:bg-white dark:text-gcr8-purple-950 hover:bg-gcr8-purple-950/90 dark:hover:bg-white/90">Join Collective</Button>
   </Card>
 );
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card } from '../components/ui/Card';
 import { Button } from '../components/ui/Button';
-import { Search, ShoppingCart, Tag, Star, Box, Monitor } from 'lucide-react';
+import { ShoppingCart, Tag, Star, Box, Monitor } from 'lucide-react';
 
 const CATEGORIES = [
   { id: 'all', label: 'All Items', icon: <Box className="w-4 h-4" /> },
